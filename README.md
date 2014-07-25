@@ -12,6 +12,9 @@ There are two parts to this project a web based client written in javascript [lo
 
 To use the program first download and install the server and then download the client code as specified in the instructions in each repository.
 
+# Forum
+I set up a google group [here](https://groups.google.com/forum/#!forum/hyperdocumentsystem) to talk about this project or any of the ideas relating to it.
+
 # Tutorial
 I have written a brief tutorial that goes through some of the basics of the system [here](https://github.com/smarks159/hyperdocument-system-wiki/wiki/tutorial)
 
