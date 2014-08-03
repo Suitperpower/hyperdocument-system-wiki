@@ -1,11 +1,18 @@
-#Description
+#Description and Rationale
 
 This project is my version of a hyperdocument system, largely based on the ideas of Doug Engelbart. I wrote a brief summary of who he was with links to learn more [here](https://github.com/smarks159/hyperdocument-system-wiki/wiki/DougEngelbartIntro)
 
-Currently this system can be used as a basic structured text editor. The features are limited and the code is experimental. But, I use this system all the time and feel that its reached a point where other people might find it useful as well. I will continue to grow and evolve the system as I keep using it. 
+There are two main ideas of Doug Engelbart that were really appealing to me:
 
-Another goal of this project is to try and expose the ideas of Doug Engelbart to more people, they are extremely important and deserve more attention. I plan on writing more about these ideas and what I have learned about them while working on this project. Hopefully having concrete examples to point will help in understanding these ideas. These ideas are more important than this one small project.
+###Efficient User Interface
+The first idea is the idea of an efficient user interface. My aim is to build tools that I use everyday to make myself more productive. For my needs, I found that most of the gui interfaces were clunky to use and focused on being easy to learn. The alternatives are usually to do away with a gui interface and focus on a more text like interface for efficiency purposes. The problem is that computer is capable of so much more that just text.  I want to build tools that are at least as efficient to use as text and take full advantage of what a computer is capable of.
+
+###Bootstrapping
+The second idea, that is even more important, is Engelbart's approach to solving problems called bootstrapping. The problem that this approach aims to address is that technology and the problems associated with it increase at an exponential rate while humans ability to solve these problems do not, especially as the number of people involved increases. This is true in the field of software development and even worse in bioinformatics, the field in which I work. The solution to this problem requires a fundamental shift in the way in which we think and approach problems. Engelbart invented such an a approach and used in to invent many of the technologies related to modern day computers that we use today. This project project is an experiment in applying the conceptual framework Engelbart developed to try and address these problems. I intend on writing more about what I have learned about applying these ideas.
  
+
+#Current Status
+Currently the code is experimental, but I use the system frequently and find it useful. Currently, the most useful thing I find it useful for is for taking notes instead of using a text editor.
 
 # Project Code
 There are two parts to this project a web based client written in javascript [located here](https://github.com/smarks159/hyperdocument-system-js-client) and a server written in go [located here](https://github.com/smarks159/hyperdocument-system-go-server). 
