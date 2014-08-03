@@ -12,7 +12,9 @@ The second idea, that is even more important, is Engelbart's approach to solving
  
 
 #Current Status
-Currently the code is experimental, but I use the system frequently and find it useful. Currently, the most useful thing I find it useful for is for taking notes instead of using a text editor.
+Currently the code is experimental, but I use the system frequently and find it useful. Currently, the most useful thing I find it useful for is for taking notes instead of using a text editor. Think of if as a basic structured text editor, where you can navigate over documents with many sections and manipulate the structure just as efficiently as writing plain text.
+
+The system, of course, does more than just manipulate text objects.
 
 # Project Code
 There are two parts to this project a web based client written in javascript [located here](https://github.com/smarks159/hyperdocument-system-js-client) and a server written in go [located here](https://github.com/smarks159/hyperdocument-system-go-server). 
