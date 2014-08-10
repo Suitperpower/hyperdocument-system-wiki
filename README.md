@@ -24,8 +24,8 @@ To use the program first download and install the server and then download the c
 # Forum
 I set up a google group [here](https://groups.google.com/forum/#!forum/hyperdocumentsystem) to talk about this project or any of the ideas relating to it.
 
-# Tutorial
-I have written a brief tutorial that goes through some of the basics of the system [here](https://github.com/smarks159/hyperdocument-system-wiki/wiki/tutorial)
+# User Documentation
+Documentation about how the system works from a user's perspective can be found [here](https://github.com/smarks159/hyperdocument-system-wiki/wiki/userdocs_toc)
 
 # License
 All code is licensed under the MIT license.
