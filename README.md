@@ -31,10 +31,8 @@ To install download or checkout the client code first and the build the server a
 # Forum
 I set up a google group [here](https://groups.google.com/forum/#!forum/hyperdocumentsystem) to talk about this project or any of the ideas relating to it.
 
-# Documentation
-User Documentation can be found here to get an idea about what the system currently does. [here](https://github.com/smarks159/hyperdocument-system-wiki/wiki/userdocs_toc)
-
- 
+#User Documentation
+User Documentation can be found [here](https://github.com/smarks159/hyperdocument-system-wiki/wiki/userdocs_toc).
 
 # License
 All code is licensed under the MIT license.
