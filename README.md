@@ -23,7 +23,7 @@ This project is currently experimental and there are a lot of key features missi
 
 The system also uses specs that can be defined and manipulated in the system. The specs, at the moment, are used to defined the commands and actions take by the command interpreter, similar to how the original NLS system used a DSL called the command meta language.
 
-Based on my experience on this project, I feel that the newspeak programming language will be a better platform for me in the long run than the browser.
+Based on my experience on this project, I feel that the newspeak programming language will be a better platform for me in the long run than the browser. Newspeak is not finished yet, but I have reached the point where I am implementing everything myself anyway.
 
 # Project Code
 There are two parts to this project a web based client written in javascript [located here](https://github.com/smarks159/hyperdocument-system-js-client) and a server written in go [located here](https://github.com/smarks159/hyperdocument-system-go-server). 
