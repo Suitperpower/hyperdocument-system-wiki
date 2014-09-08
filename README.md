@@ -1,8 +1,15 @@
 #Description and Rationale
 
-This project is my version of a hyperdocument system, largely based on the ideas of Doug Engelbart. I wrote a brief summary of who he was with links to learn more [here](https://github.com/smarks159/hyperdocument-system-wiki/wiki/DougEngelbartIntro)
+I currently work as a programmer in bioinformatics and the biggest problem by far is the rate at which everything is changing. These changes are being driven by the fact that the amount of data is increasing at a rate 5X that of Moores law. Dealing with the size of the data is just the tip to the iceberg, after processing the big raw data sets there are many different types of much smaller data sets. All this information needs to be managed and integrated together in a way the is accessible to people in order for the to get the data they need to do the analysis. The types of analysis you can do on the data are increasing as well, besides generating more data, other technological advances have enable new fields of research that could not be done before. So where I work I have to deal with the changes in software development, an ever increasing number of different data types and formats, new types of research and make it all manageable by other human beings. This is just where I work, there are lots of other changes going on as well but you get the point.
 
-There are two main ideas of Doug Engelbart that were really appealing to me:
+Something needs to be done about this problem, something big. Enter [Doug Engelbart](https://github.com/smarks159/hyperdocument-system-wiki/wiki/DougEngelbartIntro), who foresaw the problems that would be brought about be the rapid changes in technology related to computers in the 1950s. He realized that we would need to develop an new approach to solving problems that keeps pace with the rate at which technology changes and that we would need to do it collectively as all of these problems are too big to be solved by any one person alone. He used this framework in the 1960s and 70s to invent many of the technologies that we associate with modern day computing.
+
+The main idea behind the bootstrapping framework is to take a guided evolutionary approach. More than that was must constantly get better at this guided evolution, becoming ever faster and smarter about how we change in order to keep up with the exponential rate of change brought about be the change in technology.
+
+In hopes of better understanding this approach and other ideas of Doug Engelbart, I built a primitive hyperdocument system. I intend on writing more about what I have learned regarding these ideas. Long term, I hope to continue building a better hyperdocument system. Along the way there are going to be many interesting applications and ideas that will can help deal with many of the problems that I am facing. 
+
+# Main Ideas 
+(This area is a work in progress)
 
 ###Efficient User Interface
 The first idea is the idea of an efficient user interface. One goal of this project is to build tools that I use everyday to make myself more productive. For my needs, I found that most of the gui interfaces were clunky to use and focused on being easy to learn. The alternatives are usually to do away with a gui interface and focus on a more text like interface for efficiency purposes. The problem is that computer is capable of so much more that just text.  I want to build tools that are at least as efficient to use as text and take full advantage of what a computer is capable of.
@@ -22,6 +29,8 @@ Engelbart's hyperdocument system, the NLS, was originally designed to be an inte
 This project is currently experimental and there are a lot of key features missing, but I use the system frequently and find it useful. Currently, the most useful thing I find it useful for is for taking notes instead of using a text editor. Think of if as a basic structured text editor, where you can navigate over documents with many sections and manipulate the structure just as efficiently as writing plain text.
 
 The system also uses specs that can be defined and manipulated in the system. The specs, at the moment, are used to defined the commands and actions take by the command interpreter, similar to how the original NLS system used a DSL called the command meta language.
+
+Long term, I feel that the web browser is not a good platform for this project. I am quickly running up against the technological limitations of the browser even in its primative state, furthermore the browser is too slow to evolve. I feel that the goals [newspeak programming language](http://www.newspeaklanguage.org/), making a service oriented, evolvable system in which all the tools can be integrated into a common front end UI is better aligned with building a hyperdocument system. Right now, however, the project is still incomplete and there is a lot of work to do on it, but longer term this is the direction the platform should take from a technological perspective.
 
 # Project Code
 There are two parts to this project a web based client written in javascript [located here](https://github.com/smarks159/hyperdocument-system-js-client) and a server written in go [located here](https://github.com/smarks159/hyperdocument-system-go-server). 
