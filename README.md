@@ -8,29 +8,20 @@ The main idea behind the bootstrapping framework is to take a guided evolutionar
 
 In hopes of better understanding this approach and other ideas of Doug Engelbart, I built a primitive hyperdocument system. I intend on writing more about what I have learned regarding these ideas. Long term, I hope to continue building a better hyperdocument system. Along the way there are going to be many interesting applications and ideas that will can help deal with many of the problems that I am facing. 
 
-# Main Ideas 
-(This area is a work in progress)
-
-###Efficient User Interface
-The first idea is the idea of an efficient user interface. One goal of this project is to build tools that I use everyday to make myself more productive. For my needs, I found that most of the gui interfaces were clunky to use and focused on being easy to learn. The alternatives are usually to do away with a gui interface and focus on a more text like interface for efficiency purposes. The problem is that computer is capable of so much more that just text.  I want to build tools that are at least as efficient to use as text and take full advantage of what a computer is capable of.
-
-###Bootstrapping
-The second idea, that is even more important, is Engelbart's approach to solving problems called bootstrapping. The problem that this approach aims to address is that technology and the problems associated with it increase at an exponential rate while humans ability to solve these problems do not, especially as the number of people involved increases. This is true in the field of software development and even worse in bioinformatics, the field in which I work. The solution to this problem requires a fundamental shift in the way in which we think and approach problems. Engelbart invented such an a approach and used in to invent many of the technologies related to modern day computers that we use today. This project project is an experiment in applying the conceptual framework Engelbart developed to try and address these problems. I intend on writing more about what I have learned about applying these ideas.
-
-###Spec Driven Programming
-Spec Driven Programming is not an idea originally developed by Doug Engelbart. It is a way of programming that a co-worker and I discovered(as in new to me) while building a sequencing LIMS that seemed to work really well. The main idea is that you have nested descriptive data structures that describe the facts and rules associated with a particular domain. These data structures are then used to drive different parts of the program in a data driven way.
-
-All objects in the document are implemented as a spec data structure. Of course, for the most part, they are not rendered that way to the user. The operations related to manipulating these objects can be domain specific as well, so the user does not have to see or manipulate raw data. So the documents are all readable and able to be manipulated by both humans and machines.
-
-Engelbart's hyperdocument system, the NLS, was originally designed to be an integrated environment that supported multiple types of objects. All the principles from the hyperdocument system apply to specs as well.
- 
-
 #Current Status
-This project is currently experimental and there are a lot of key features missing, but I use the system frequently and find it useful. Currently, the most useful thing I find it useful for is for taking notes instead of using a text editor. Think of if as a basic structured text editor, where you can navigate over documents with many sections and manipulate the structure just as efficiently as writing plain text.
+Currently, I have built a working version of a primitive hyperdocument system, see the user documentation for a list of some of the features implemented. The project and the code are should be considered highly experimental. I feel the system is stable enough to demonstrate some ideas and generate some discussion. However, there are a lot of key features missing.
 
-The system also uses specs that can be defined and manipulated in the system. The specs, at the moment, are used to defined the commands and actions take by the command interpreter, similar to how the original NLS system used a DSL called the command meta language.
+Personally, I find it most useful for taking notes instead of using a text editor. Think of if as a basic structured text editor, where you can navigate over documents with many sections and manipulate the structure in an efficient manner.
 
-Long term, I feel that the web browser is not a good platform for this project. I am quickly running up against the technological limitations of the browser even in its primative state, furthermore the browser is too slow to evolve. I feel that the goals [newspeak programming language](http://www.newspeaklanguage.org/), making a service oriented, evolvable system in which all the tools can be integrated into a common front end UI is better aligned with building a hyperdocument system. Right now, however, the project is still incomplete and there is a lot of work to do on it, but longer term this is the direction the platform should take from a technological perspective.
+The system also is partially written using itself. The command interpreter behavior can be defined by creating and manipulating a executable document in the same manner you can manipulate text. In the original NLS system these specs were written in a DSL called the command meta language.
+
+#Future Plans
+
+Currently is just me working on this in my spare time, which varies. My first goal is to document more about what I have learned working on this project, there are a lot of important ideas that require further explanation. Ideally, these ideas would be documented in the hyperdocument system itself rather then as a github wiki.
+
+On the technical side of things, long term I feel that the web browser is not a good platform for this project. I am quickly running up against the technological limitations of the browser even in the projects primative state, even more importantly the browser is too slow to evolve. I feel that the goals [newspeak programming language](http://www.newspeaklanguage.org/) are more in line with the type of platform I would want to build future versions of this. Right now, however, the project is still incomplete and there is a lot of work to do just to even be able to port over what I have done, but longer term this is the direction the platform should take from a technological perspective.
+
+
 
 # Project Code
 There are two parts to this project a web based client written in javascript [located here](https://github.com/smarks159/hyperdocument-system-js-client) and a server written in go [located here](https://github.com/smarks159/hyperdocument-system-go-server). 
