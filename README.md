@@ -1,33 +1,23 @@
-#Description and Rationale
+#Description
 
-I currently work as a programmer in bioinformatics and the biggest problem by far is the rate at which everything is changing. These changes are being driven by the fact that the amount of data is increasing at a rate 5X that of Moores law. Dealing with the size of the data is just the tip to the iceberg, after processing the big raw data sets there are many different types of much smaller data sets. All this information needs to be managed and integrated together in a way the is accessible to people in order for the to get the data they need to do the analysis. The types of analysis you can do on the data are increasing as well, besides generating more data, other technological advances have enable new fields of research that could not be done before. So where I work I have to deal with the changes in software development, an ever increasing number of different data types and formats, new types of research and make it all manageable by other human beings. This is just where I work, there are lots of other changes going on as well but you get the point. And the rate of of change is only going to increase.
+This is an experimental version of a hyperdocument system based on the ideas of [Doug Engelbart](https://en.wikipedia.org/wiki/Douglas_Engelbart). Doug Engelbart invented many of the technologies that we use related to the web and collaborative development. The overall purpose that these technolgies were invented for, however, has been mostly forgotten over time. That purpose is [boosting our Collective IQ](http://www.dougengelbart.org/about/vision-highlights.html).
 
-Something needs to be done about this problem, something big. Enter [Doug Engelbart](https://github.com/smarks159/hyperdocument-system-wiki/wiki/DougEngelbartIntro), who foresaw the problems that would be brought about be the rapid changes in technology related to computers in the 1950s. He realized that we would need to develop an new approach to solving problems that keeps pace with the rate at which technology changes and that we would need to do it collectively as all of these problems are too big to be solved by any one person alone. He used this framework in the 1960s and 70s to invent many of the technologies that we associate with modern day computing.
+What is Collective IQ? It is the ability of humans, as a group, to adapt to the changing world around them by identifying problems and taking the correct course of action to solve these problems. The more people involved the worse we get at solving problems. I am sure that you have encountered problems that took way longer than they should have due to inefficienies of working in a large group, the bigger the group the bigger this problem becomes. These problems are made even worse by the fact the challenges brought about by the change in all technologies related to computers are increasing at an exponential rate. 
 
-The main idea behind the bootstrapping framework is to take a guided evolutionary approach. More than that we must constantly get better at this guided evolution, becoming ever faster and smarter about how we change in order to keep up with the exponential rate of change brought about be the change in technology. Engelbart called this "improving the improvement process".
+Doug Engelbart recognized this problem early on and saw that computers could provide the enabling technology to overcome this problem. To that end Doug Engelbart created a conceptual framework called the "bootstrap framework". This framework outlines a fundamentally different way of working together that scales to a large number of people and not only enables them to work together efficiently, but to increase that effectiveness at an exponential rate. A hyperdocument system is Doug Engelbart's vision of the technology that would support this way of working.  The hardest part in this is getting people to change the way they work together in the first place due to the exact same problem that Doug Engelbart was trying to solve.
 
-In hopes of better understanding this approach and other ideas of Doug Engelbart, I built a primitive hyperdocument system. I intend on writing more about what I have learned regarding these ideas. Long term, I hope to continue building a better hyperdocument system. Along the way there are going to be many interesting applications and ideas that will can help deal with many of the problems that I am facing. 
+There is a lot more information about these ideas at the [Doug Engelbart Institute website](http://www.dougengelbart.org/).
 
-There is a ton of information about Doug Engelbart and his ideas at the [Doug Engelbart Institute](http://dougengelbart.org/) website.
-
-
-
-#Current Status
-Currently, I have built a working version of a primitive hyperdocument system, see the [user documentation](https://github.com/smarks159/hyperdocument-system-wiki/wiki/userdocs_toc) for a list of some of the features implemented. The project and the code are should be considered highly experimental. I feel the system is stable enough to demonstrate some ideas and generate some discussion. However, there are a lot of key features missing.
-
-Personally, I find it most useful for taking notes instead of using a text editor. Think of if as a basic structured text editor, where you can navigate over documents with many sections and manipulate the structure in an efficient manner.
-
-The system also is partially written using itself. The command interpreter behavior can be defined by creating and manipulating a executable document in the same manner you can manipulate text. In the original NLS system this behavior was defined in a DSL called the command meta language.
-
-#Future Plans
-
-Currently is just me working on this in my spare time, which varies. My first goal is to document more about what I have learned working on this project, there are a lot of important ideas that require further explanation and how they relate to what I work on. Ideally, these ideas would be documented in the hyperdocument system itself rather then as a github wiki.
-
-On the technical side of things, long term I feel that the web browser is not a good platform for this project. The biggest problem with the web browser is that it evolves too slowly and this isn't going to change anytime soon. I find myself fighting with the platform just to implement basic features even at this point, nevermind what I want to do in the future. On the other hand I want a system that scales to a large number of people and enables them to work together collaboratively, which the browser has done a really good job at. 
-
-I feel that the goals of the [newspeak programming language](http://www.newspeaklanguage.org/) are more in line with the type of platform I would want to build future versions of this. Right now, however, the project is still incomplete and there is a lot of work to do just to even be able to port over what I have done, but longer term this is the direction the platform should take from a technological perspective.
+The goal behind this project is to gain a better understanding of these ideas and figure out how to take a small step forward towards this goal. Even a small step forward towards this goal can have a large impact on the world. 
 
 
+#Current Status:
+Currently I have a working version of a primitive hyperdocument system. The system is stable and there is enough to demonstrate so core principles, but it is missing many key features. You can view the user document for a list of some of the implemented features.
+
+#Future Plans:
+I plan on working on this project in my spare time and will document what I learn. The goal is to educate myself and others about these important ideas and figure out what it would take to implement such a system.
+
+These core ideas and techniques could then be used to build more specific applications in the future.
 
 # Project Code
 There are two parts to this project a web based client written in javascript [located here](https://github.com/smarks159/hyperdocument-system-js-client) and a server written in go [located here](https://github.com/smarks159/hyperdocument-system-go-server). 
